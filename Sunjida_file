@@ -1,1 +1,14 @@
+package sunjida;
 
+public class Sunjida extends Laptop{
+     Sunjida()
+    {
+        name = "MSi";
+    }
+
+     @Override
+    void aboutGadget()
+    {
+        System.out.println("Full Description!");
+    }
+}
